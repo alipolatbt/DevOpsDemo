@@ -1,0 +1,22 @@
+name: IIS Deploy
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+jobs:
+  deploy-dev:
+    runs-on: [self-hosted, Windows, iis-dev]
+    environment: dev
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-dotnet@v5
+        with:
+          dotnet-version: '10.0.x'
+      - run: dotnet test
+      - name: Publish
+        shell: pwsh
+        run: dotnet publish src/DevOpsDemo/DevOpsDemo.csproj -c Release -o "$env:RUNNER_TEMP\publish"
+      - name: Deploy and verify
+        shell: pwsh
+        run: .\scripts\deploy-iis.ps1 -Source "$env:RUNNER_TEMP\publish" -SiteName "DevOpsDemo" -Target "C:\sites\DevOpsDemo"

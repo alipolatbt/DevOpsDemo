@@ -1,0 +1,5 @@
+c:\DevOpsDemo\out\iis\DevOpsDemo.exe
+c:\DevOpsDemo\out\iis\DevOpsDemo.dll
+c:\DevOpsDemo\out\iis\DevOpsDemo.deps.json
+c:\DevOpsDemo\out\iis\DevOpsDemo.runtimeconfig.json
+c:\DevOpsDemo\out\iis\DevOpsDemo.pdb

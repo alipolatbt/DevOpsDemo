@@ -19,6 +19,8 @@ try {
   Remove-Item "$Target\app_offline.htm" -Force -ErrorAction SilentlyContinue
   $response = Invoke-WebRequest "http://localhost/health/ready" -UseBasicParsing -TimeoutSec 15
   if ($response.StatusCode -ne 200) { throw "Healthcheck failed" }
+  # Robocopy exit codes 1-7 mean success; reset so the step doesn't inherit them
+  $global:LASTEXITCODE = 0
 }
 catch {
   robocopy $backup $Target /MIR /R:2 /W:2 | Out-Null

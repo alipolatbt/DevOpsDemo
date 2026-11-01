@@ -1,27 +1,26 @@
 {
   "version": 4,
   "targets": {
-    "net10.0": {},
-    "net10.0/win-x64": {}
+    "net10.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
     "net10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ali.polat\\.nuget\\packages\\": {}
+    "/root/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\DevOpsDemo\\src\\DevOpsDemo\\DevOpsDemo.csproj",
+      "projectUniqueName": "/workspaces/DevOpsDemo/alipolatbt/DevOpsDemo/src/DevOpsDemo/DevOpsDemo.csproj",
       "projectName": "DevOpsDemo",
-      "projectPath": "c:\\DevOpsDemo\\src\\DevOpsDemo\\DevOpsDemo.csproj",
-      "packagesPath": "C:\\Users\\ali.polat\\.nuget\\packages\\",
-      "outputPath": "c:\\DevOpsDemo\\src\\DevOpsDemo\\obj\\",
+      "projectPath": "/workspaces/DevOpsDemo/alipolatbt/DevOpsDemo/src/DevOpsDemo/DevOpsDemo.csproj",
+      "packagesPath": "/root/.nuget/packages/",
+      "outputPath": "/workspaces/DevOpsDemo/alipolatbt/DevOpsDemo/src/DevOpsDemo/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ali.polat\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/root/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
@@ -71,7 +70,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.403/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.403/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
@@ -486,11 +485,6 @@
           "System.Xml.XPath": "(,4.3.32767]",
           "System.Xml.XPath.XDocument": "(,5.0.32767]"
         }
-      }
-    },
-    "runtimes": {
-      "win-x64": {
-        "#import": []
       }
     }
   }

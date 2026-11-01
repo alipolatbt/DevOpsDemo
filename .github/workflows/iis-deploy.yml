@@ -17,8 +17,8 @@ jobs:
           dotnet-version: '10.0.x'
       - run: dotnet test src/DevOpsDemo/DevOpsDemo.csproj
       - name: Publish
-        shell: pwsh
+        shell: powershell
         run: dotnet publish src/DevOpsDemo/DevOpsDemo.csproj -c Release -o "$env:RUNNER_TEMP\publish"
       - name: Deploy and verify
-        shell: pwsh
+        shell: powershell
         run: .\scripts\deploy-iis.ps1 -Source "$env:RUNNER_TEMP\publish" -SiteName "DevOpsDemo" -Target "C:\sites\DevOpsDemo"

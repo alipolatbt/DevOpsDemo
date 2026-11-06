@@ -8,19 +8,19 @@
     "net10.0": []
   },
   "packageFolders": {
-    "/root/.nuget/packages/": {}
+    "/home/runner/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/workspaces/DevOpsDemo/alipolatbt/DevOpsDemo/src/DevOpsDemo/DevOpsDemo.csproj",
+      "projectUniqueName": "/home/runner/work/DevOpsDemo/DevOpsDemo/src/DevOpsDemo/DevOpsDemo.csproj",
       "projectName": "DevOpsDemo",
-      "projectPath": "/workspaces/DevOpsDemo/alipolatbt/DevOpsDemo/src/DevOpsDemo/DevOpsDemo.csproj",
-      "packagesPath": "/root/.nuget/packages/",
-      "outputPath": "/workspaces/DevOpsDemo/alipolatbt/DevOpsDemo/src/DevOpsDemo/obj/",
+      "projectPath": "/home/runner/work/DevOpsDemo/DevOpsDemo/src/DevOpsDemo/DevOpsDemo.csproj",
+      "packagesPath": "/home/runner/.nuget/packages/",
+      "outputPath": "/home/runner/work/DevOpsDemo/DevOpsDemo/src/DevOpsDemo/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/root/.nuget/NuGet/NuGet.Config"
+        "/home/runner/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"

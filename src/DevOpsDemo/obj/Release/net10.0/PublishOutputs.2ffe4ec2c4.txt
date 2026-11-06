@@ -1,0 +1,5 @@
+/tmp/DevOpsDemo-publish/DevOpsDemo
+/tmp/DevOpsDemo-publish/DevOpsDemo.dll
+/tmp/DevOpsDemo-publish/DevOpsDemo.deps.json
+/tmp/DevOpsDemo-publish/DevOpsDemo.runtimeconfig.json
+/tmp/DevOpsDemo-publish/DevOpsDemo.pdb
